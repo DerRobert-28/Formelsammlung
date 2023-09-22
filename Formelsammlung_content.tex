@@ -1,0 +1,36 @@
+\documentclass{article}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=green]{hyperref}
+
+\newbox\bwk\edef\tempd#1pt{#1\string p\string t}\tempd\def\nbextr#1pt{#1}
+\def\npts#1{\expandafter\nbextr\the#1\space}
+\def\ttwplink#1#2{\special{ps:1 0 0 setrgbcolor}#2\special{ps:0 0 0 setrgbcolor}\setbox\bwk=\hbox{#2}\special{ps:( linkto #1)\space\npts{\wd\bwk} \npts{\dp\bwk} -\npts{\ht\bwk} true\space Cpos}}
+\begin{document}
+
+\title{Formelsammlung}
+\author{Der Robert}
+\maketitle
+
+\tableofcontents
+\newpage
+
+
+\section{Ableitung \& Stammfunktion}
+Gegeben sei eine Funktion der allgemeinen Form:
+\[
+	f(x) = a \times x^n
+\]
+
+Dann lautet ihre Ableitung:
+\[
+	f^\prime (x) = a \cdot n \cdot x ^ {n - 1}
+\]
+
+
+\end{document}
