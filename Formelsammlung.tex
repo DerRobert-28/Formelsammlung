@@ -20,6 +20,50 @@
 \tableofcontents
 \newpage
 
+\section{Trigonometrische Funktionen}
+
+\subsection{Grundfunktionen}
+
+\subsubsection{Sinus und Kosinus}
+\begin{align*}
+	&\sin{\alpha} = \frac{Gegenkathete}{Hypotenuse} ;
+	\\
+	&\cos{\alpha} = \frac{Ankathete}{Hypotenuse} ;
+\end{align*}
+Weiterhin gilt dass $ \sin^2{x} + \cos^2{x} = 1 $ ist, weil:
+\begin{align*}
+	& \sin^2{x} + \cos^2{x} = \\
+	& = \left( \frac{Gegenkathete}{Hypotenuse} \right) ^2 + \left( \frac{Ankathete}{Hypotenuse} \right) ^ 2 = \\
+	& = \frac{Gegenkathete^2}{Hypotenuse^2} + \frac{Ankathete^2}{Hypotenuse^2} = \\
+	& = \frac{Gegenkathete^2 + Ankathete^2}{Hypotenuse^2} ;
+\end{align*}
+Und, weil im rechtwinkeligen Dreieck der \textbf{Satz des Pythagoras} gilt:
+\[
+	Ankathete^2 + Gegenkathete^2 = Hypotenuse^2 ;
+\]
+kommt für $ \sin^2{x} + \cos^2{x} = 1 $ heraus.
+
+\subsubsection{Tangens und Kotangens}
+\begin{align*}
+	&\tan{\alpha} = \frac{Gegenkathete}{Ankathete} = \frac{\sin{x}}{\cos{x}} ;
+	\\
+	&\cot{\alpha} = \frac{Ankatheta}{Gegenkathete} = \frac{\cos{x}}{\sin{x}} = \frac{1}{\tan{\alpha}} ;
+\end{align*}
+
+\subsubsection{Sekans und Kosekans}
+\begin{align*}
+	&\sec{\alpha} = \frac{Hypotenuse}{Ankathete} = \frac{1}{\cos{\alpha}} ;
+	\\
+	&\csc{\alpha} = \frac{Hypotenuse}{Gegenkathete} = \frac{1}{\sin{\alpha}} ;
+\end{align*}
+
+\subsection{Arkusfunktionen}
+Die Arkusfunktionen sind die Umkehrfunktionen der trigonometrischen Funktionen. Für diese gibt es drei Schreibweisen. Zum Beispiel kann der Arkussinus mit $ \arcsin $, \textit{asin} oder $ sin^{-1} $ geschrieben werden. Um Verwechlungen mit dem Kehrwert zu vermeiden, verwende ich die Schreibweise mit \textit{arc} davor.
+
+\subsubsection{Arkussinus und Arkuskosinus}
+
+
+
 \section{Ableitung \& Stammfunktion}
 
 \subsection{Allgemeine Ableitung}
@@ -81,13 +125,13 @@ Die Exponentialfunktion leitet in ihrer Grundform immer auf sich selbst ab.
 \subsubsection{Ableitungen von Sinus und Kosinus}
 Der Sinus und der Kosinus leiten im Prinzip immer wieder aufeinander ab:
 \begin{align*}
-	& \frac{d}{dx} \left( sin(x) \right) = cos(x) ;
+	& \frac{d}{dx} \left( \sin{x} \right) = \cos{x} ;
 	\\
-	& \frac{d}{dx} \left( cos(x) \right) = -sin(x) ;
+	& \frac{d}{dx} \left( \cos{x} \right) = -\sin{x} ;
 	\\
-	& \frac{d}{dx} \left( -sin(x) \right) = -cos(x) ;
+	& \frac{d}{dx} \left( -\sin{x} \right) = -\cos{x} ;
 	\\
-	& \frac{d}{dx} \left( -cos(x) \right) = sin(x) ;
+	& \frac{d}{dx} \left( -\cos{x} \right) = \sin{x} ;
 \end{align*}
 
 Das heißt, die vierte Ableitung ist wieder die Originalfunktion.\\
@@ -98,13 +142,13 @@ Oder allgemein:
 
 Hierbei steht $n$ für die $n$-te Ableitung, und $k$ steht für:
 \begin{align*}
-	& k = 0: sin(x)
+	& k = 0: \sin{x}
 	\\
-	& k = 1: cos(x)
+	& k = 1: \cos{x}
 	\\
-	& k = 2: -sin(x)
+	& k = 2: -\sin{x}
 	\\
-	& k = 3: -cos(x)
+	& k = 3: -\cos{x}
 \end{align*}
 
 \subsection{Weitere Ableitungsregeln}
@@ -162,6 +206,21 @@ Hierbei muss bei der äußeren Ableitung das Argument unabgeleitet übernommen w
 	&= 28 \cdot x^3 \cdot (x^4 + 5)^6 ;
 \end{align*}
 
+\subsection{Weitere Ableitungen}
+
+\subsubsection{Trigonometrische Funktionen}
+\begin{align*}
+	& \frac{d}{dx} \tan{x} = \frac{d}{dx} \left( \frac{\sin{x}}{\cos{x}} \right) = 1 + \frac{\cos^2{x} + \sin^2{x}}{\cos^2{x}} = 1 + \tan^2{x} = \frac{1}{\cos^2{x}};
+	\\
+	& \frac{d}{dx} \cot{x} = \frac{d}{dx} \left( \frac{\cos{x}}{\sin{x}} \right) = -1 - \frac{\cos^2{x}}{\sin^2{x}} = -1 - \cot^2{x};
+	\\
+	& \frac{d}{dx} \sec{x} = \frac{d}{dx} \left( \frac{1}{\cos{x}} \right) = \frac{\sin{x}}{\cos^2{x}} = \frac{\tan{x}}{\cos{x}} = \sec{x} \cdot \tan{x} ;
+	\\
+	& \frac{d}{dx} \csc{x} = \frac{d}{dx} \left( \frac{1}{\sin{x}} \right) = \frac{-\cos{x}}{\sin^2{x}} = -\frac{\cot{x}}{\sin{x}} = -\cot{x} \cdot \csc{x} ;
+	\\
+	&
+\end{align*}
+
 \subsection{Allgemeine Stammfunktion}
 Da beim Ableiten einer Funktion eine eventuelle Konstante verloren geht, spricht man in der Mathematik normalerweise nicht von \textbf{der}, sondern von \textbf{einer} Stammfunktion. Man spricht auch vom Integral einer Funktion.
 
@@ -181,13 +240,13 @@ Die Konstante $c$ (manchmal auch $C$) schreibt man aus formellen Gründen mit. D
 
 Der Sinus und der Kosinus leiten im Prinzip immer wieder aufeinander ab:
 \begin{align*}
-	& \int sin(x) dx = -cos(x) ;
+	& \int \sin{x} dx = -\cos{x} ;
 	\\
-	& \int cos(x) dx = sin(x) ;
+	& \int \cos{x} dx = \sin{x} ;
 	\\
-	& \int -sin(x) dx = - \int sin(x) dx = cos(x) ;
+	& \int -\sin{x} dx = - \int \sin{x} dx = \cos{x} ;
 	\\
-	& \int -cos(x) dx = - \int cos(x) dx = -sin(x) ;
+	& \int -\cos{x} dx = - \int \cos{x} dx = -\sin{x} ;
 \end{align*}
 
 \subsubsection{Das Integral der Exponentialfunktion}
