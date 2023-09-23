@@ -1,43 +1,45 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Trigonometrische Funktionen}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Grundfunktionen}{2}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Sinus und Kosinus}{2}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Tangens und Kotangens}{2}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Sekans und Kosekans}{2}{subsubsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.2}Arkusfunktionen}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Ableitung \& Stammfunktion}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Allgemeine Ableitung}{2}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Die erste Ableitung}{2}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Die zweite Ableitung}{3}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Die dritte Ableitung}{3}{subsubsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Die vierte Ableitung}{3}{subsubsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.2}Sonderfälle}{3}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Ableitung einer Konstanten}{3}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Ableitung der Quadratwurzel}{3}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Ableitung der $n$-ten Wurzel}{3}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Ableitung der Exponentialfunktion}{3}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Ableitung des Logarithmus}{3}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}Ableitungen von Sinus und Kosinus}{3}{subsubsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.3}Weitere Ableitungsregeln}{4}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Summenregel}{4}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Faktorregel}{4}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Potenzregel}{4}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Produktregel}{4}{subsubsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}Quotientenregel}{4}{subsubsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}Kettenregel}{4}{subsubsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.4}Weitere Ableitungen}{5}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Trigonometrische Funktionen}{5}{subsubsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.5}Allgemeine Stammfunktion}{5}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Das unbestimmte Integral}{5}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Das bestimmte Integral}{5}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Das Integral von Sinus und Kosinus}{5}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Das Integral der Exponentialfunktion}{5}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Integrationsregeln}{5}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Partielle Integration (allgemein)}{5}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Partielle Integration einer Summe}{6}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Partielle Integration eines Produkts}{6}{subsubsection.2.6.3}%
-\contentsline {section}{\numberline {3}Fakultät}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Allgemein}{6}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Sonderfall}{6}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Berechnung über die Ableitung}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Stirling-Formel}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {1}Ableitung \& Stammfunktion}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Allgemeine Ableitung}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Die erste Ableitung}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Die zweite Ableitung}{2}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Die dritte Ableitung}{2}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Die vierte Ableitung}{2}{subsubsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.2}Sonderfälle}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Ableitung einer Konstanten}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Ableitung der Quadratwurzel}{2}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Ableitung der $n$-ten Wurzel}{2}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Ableitung der Exponentialfunktion}{2}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Ableitung des Logarithmus}{2}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}Ableitungen der trigonometrischen Funktionen}{3}{subsubsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.3}Weitere Ableitungsregeln}{3}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Summenregel}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Faktorregel}{3}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Potenzregel}{3}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Produktregel}{3}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}Quotientenregel}{3}{subsubsection.1.3.5}%
+\contentsline {subsubsection}{\numberline {1.3.6}Kettenregel}{4}{subsubsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.4}Weitere Ableitungen}{4}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Trigonometrische Funktionen}{4}{subsubsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.5}Allgemeine Stammfunktion}{4}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Das unbestimmte Integral}{4}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Das bestimmte Integral}{4}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Das Integral von Sinus und Kosinus}{5}{subsubsection.1.5.3}%
+\contentsline {subsubsection}{\numberline {1.5.4}Das Integral der Exponentialfunktion}{5}{subsubsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.6}Integrationsregeln}{5}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Partielle Integration (allgemein)}{5}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Partielle Integration einer Summe}{5}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.3}Partielle Integration eines Produkts}{5}{subsubsection.1.6.3}%
+\contentsline {section}{\numberline {2}Fakultät}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Allgemein}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Sonderfall}{6}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Berechnung über die Ableitung}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Stirling-Formel}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Ableitung}{6}{subsubsection.2.3.1}%
+\contentsline {section}{\numberline {3}Trigonometrische Funktionen}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Grundfunktionen}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Sinus und Kosinus}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Tangens und Kotangens}{7}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Sekans und Kosekans}{7}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Arkusfunktionen}{7}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Arkussinus und Arkuskosinus}{7}{subsubsection.3.2.1}%
