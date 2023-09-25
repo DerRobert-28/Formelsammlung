@@ -4,22 +4,146 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage[ngerman]{babel}
+\usepackage{enumitem}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
 \usepackage[colorlinks=true,urlcolor=blue,linkcolor=black]{hyperref}
 
 \begin{document}
-
 \setlength{\parindent}{0mm}
 
-\title{Formelsammlung}
+\title{\textbf{MATHEMATIK}}
 \author{Der Robert}
 \maketitle
 
 \tableofcontents
-\newpage
 
+\newpage
+\section{Funktionen}
+
+\subsection{Polynom $n$-ten Grades}
+Eine Funktion ist ein Polynom $n$-ten Grades,
+wenn sie folgende Form hat:
+\[
+	f(x) = p_1 \cdot x^n + p_2 \cdot x^{n - 1} + p_3 \cdot x^{n - 2} + ... + p_{n - 2} \cdot x^2 + p_{n - 1} \cdot x + p_n ;
+\]
+Hierbei stehen
+$p_1 ... p_n \in \mathbb{R} $
+f\"ur beliebige Faktoren zum jeweiligen Polynom.
+
+\subsection{Spezialf\"alle}
+
+\subsubsection{Polynom des Grades $0$}
+Bei einem Polynom des Grades $0$ handelt es sich um eine Gerade,
+die parallel zur $x$-Achse verl\"auft.
+Sie lautet:
+\[
+	f(x) = c ;
+\]
+Wobei $c \in \mathbb{R} $ ist,
+und nicht $0$ sein sollte.
+Der Buchstabe $c$ als Variable leitet sich davon ab,
+dass es sich um eine Konstante handelt,
+auf Englisch auch \textit{constant},
+von lateinisch \textit{c\=onst\=are} = \textit{feststehen},
+bzw. \textit{c\=onst\=ans} = \textit{feststehend}.
+
+\subsubsection{Polynom ersten Grades}
+Bei einem Polynom ersten Grades handelt es sich lediglich um eine lineare Funktion:
+\[
+f(x) = m \cdot x + t ;
+\]
+Sie hat die Steigung $m$ und den Nullpunkt $ -t $.
+Ist $m$ positiv,
+ist die Funktion monoton steigend;
+ist $m$ negativ,
+ist die Funktion monoton fallend.
+
+\subsubsection{Polynom zweiten Grades}
+Eine Funktion zweiten Grades ist eine quadratische Funktion.
+Ihr Funktionsgraph ist eine Parabel.
+\[
+	f(x) = a \cdot x^2 + b \cdot x + c ;
+\]
+Die Nullpunkte lassen sich \"uber die sog. Mitternachtsformel bestimmen:
+\[
+	x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4 \cdot a \cdot c}}{2 \cdot a} ;
+\]
+Man kann anhand der Diskriminante auch bestimmen,
+wie viele Nullstellen eine quadratische Funktion hat.
+Die Diskriminante ist der Radikand der Mitternachtsformel,
+also $ b^2 - 4 \cdot a \cdot c $.
+Jetzt gibt es folgende M\"oglichkeiten:
+\begin{itemize}[nosep]
+	\item $ b^2 - 4 \cdot a \cdot c < 0 $: Die Funktion hat keinen Nullpunkt.
+	\item $ b^2 - 4 \cdot a \cdot c = 0 $: Die Funktion hat genau einen Nullpunkt, n\"amlich $ -\frac{b}{2 \cdot a} $
+	\item $ b^2 - 4 \cdot a \cdot c > 0 $: Die Funktion hat zwei Nullpunkte.
+\end{itemize}
+
+\subsubsection{Polynom dritten Grades}
+Eine Funktion dritten Grades nennt man auch kubische Funktion.
+Ihr Funktionsgraph sieht eher s-f\"ormig aus.
+\[
+	f(x) = a \cdot x^3 + b \cdot x^2 + c \cdot x + d ;
+\]
+
+\subsubsection{Polynom vierten Grades}
+Der Graph einer Funktion vierten Grades kann w-f\"ormig aussehen.
+\[
+	f(x) = a \cdot x^4  + b \cdot x^3 + c \cdot x^2 + d \cdot x + e ;
+\]
+
+
+\subsection{Kurvendiskussion}
+Zu einer vollst\"andigen Kurvendiskussion werden in der Regel folgende Punkte bestimmt:
+\begin{itemize}[nosep]
+	\item Definitionsmenge bzw. Grundmenge der Funktion
+	\item Nullstelle(n), also Schnittpunkt(e) mit der $x$-Achse
+	\item Schnittpunk(e) mit der $y$-Achse, also $ y = f(0) ; $
+	\item Symmetrie(n)
+	\item Grenzverhalten
+	\item Extrempunkt(e)
+	\item Wendepunkt(e)
+	\item Funktionsgraph
+	\item Monotonie-Verhalten
+	\item Kr\"ummung
+	\item Wertemenge
+\end{itemize}
+
+\subsubsection{Definitionsmenge bzw. Grundmenge der Funktion}
+Um die Definitionsmenge zu bestimmen,
+schaut man sich den Funktionsterm einfach an.
+Bei einem allgemeinem Polynom ist die Definitionsmenge f\"ur gew\"ohnlich $ \mathbb{R} $.
+Hat man jedoch bspw. Wurzeln oder Br\"uche,
+ist es wichtig darauf zu achten,
+welche Werte eingesetzt werden d\"urfen.
+Der Radikand
+(also das,
+was unter der Wurzel steht)
+darf nie negativ sein,
+und bei einem Bruch darf der Nenner nicht Null sein.
+Auch f\"ur andere Funktionen gelten bestimmte Werte.
+Beispielsweise ist der
+(nat\"urliche)
+Logarithmus nur f\"ur positive Zahlen bestimmt.
+Hier ein paar Beispiele:
+\begin{itemize}[nosep]
+	\item $ f(x) = \sqrt{x} ; \\ D = \mathbb{R}^{+}_{0}  $
+	\item $ f(x) = \frac{1}{x} ; \\ D = \mathbb{R} \textbackslash \{ 0 \} $
+	\item $ f(x) = \ln{x} ; \\ D = \mathbb{R}^{+} $
+	\item $ f(x) = \sqrt{1 - x} ; \\ D = ] -\infty ; +1 ] $
+\end{itemize}
+
+\subsubsection{Symmetrie(n)}
+Eine Symmetrie kann man bei einem Polynom relativ einfach bestimmen:
+\begin{itemize}[nosep]
+	\item Gibt es nur Polynome mit geraden Exponenten, ist der Funktionsgraph achsensymmetrisch.
+	\item Gibt es nur Polynome mit ungeraden Exponenten, ist der Funktionsgraph punktsymmetrisch.
+	\item Bei gemischten Polynomen gibt es h\"ochstwahrscheinlich keine Symmetrie.
+\end{itemize}
+
+\newpage
 \section{Ableitung \& Stammfunktion}
 
 \subsection{Allgemeine Ableitung}
@@ -49,7 +173,7 @@ Gegeben sei eine Funktion der allgemeinen Form:
 	f^{(4)}(x) = a \cdot n \cdot \left( n - 1 \right) \cdot \left( n - 2 \right) \cdot \left( n - 3 \right) \cdot x^{n - 4} ;
 \]
 
-\subsection{Sonderfälle}
+\subsection{Sonderf\"alle}
 
 \subsubsection{Ableitung einer Konstanten}
 Eine Konstante geht beim Ableiten immer verloren, weil sie $0$ wird.
@@ -90,13 +214,14 @@ Der Sinus und der Kosinus leiten im Prinzip immer wieder aufeinander ab:
 	& \frac{d}{dx} \left( -\cos{x} \right) = -\frac{d}{dx} cos{x} = \sin{x} ;
 \end{align*}
 
-Das heißt, die vierte Ableitung ist wieder die Originalfunktion.\\
+Das hei{\ss}t,
+die vierte Ableitung ist wieder die Originalfunktion.\\
 Oder allgemein:
 \[
 	f^{(4n + k)} = f^{(k)} ;
 \]
 
-Hierbei steht $n$ für die $n$-te Ableitung, und $k$ steht für:
+Hierbei steht $n$ f\"ur die $n$-te Ableitung, und $k$ steht f\"ur:
 \begin{align*}
 	& k = 0: \sin{x}
 	\\
@@ -110,13 +235,13 @@ Hierbei steht $n$ für die $n$-te Ableitung, und $k$ steht für:
 \subsection{Weitere Ableitungsregeln}
 
 \subsubsection{Summenregel}
-Beim Ableiten einer Summe, kann jeder einzelne Summand für sich abgeleitet werden:
+Beim Ableiten einer Summe, kann jeder einzelne Summand f\"ur sich abgeleitet werden:
 \[
 	\frac{d}{dx} \left( f(x) + g(x) \right) = f^\prime(x) + g^\prime(x) ;
 \]
 
 \subsubsection{Faktorregel}
-Die Faktorregel gilt für allgemeine Ableitung:
+Die Faktorregel gilt f\"ur allgemeine Ableitung:
 \[
 	\frac{d}{dx} \left( a \cdot f(x) \right) = a \cdot f^\prime(x);
 \]
@@ -141,7 +266,7 @@ Die Potenzregel ist die allgemeine Ableitung:
 \[
 	\frac{d}{dx} \left( f(g(x))  \right) = f^\prime(x) \cdot g^\prime(x) ;
 \]
-Hierbei muss bei der äußeren Ableitung das Argument unabgeleitet übernommen werden.
+Hierbei muss bei der \"au{\ss}eren Ableitung das Argument unabgeleitet \"ubernommen werden.
 \\ Beispiel:
 \begin{align*}
 	f(x) &= (x^4 + 5)^7 ;
@@ -184,7 +309,10 @@ Da beim Ableiten einer Funktion eine eventuelle Konstante verloren geht, spricht
 \[
 	F(x) = \int f(x) dx = \frac{a}{n + 1} \cdot x ^ {n + 1} + c ;
 \]
-Die Konstante $c$ (manchmal auch $C$) schreibt man aus formellen Gründen mit. Diese fällt ja bei der Ableitung heraus, weil sie $0$ wird. Desweiteren gilt:
+Die Konstante $c$ (manchmal auch $C$) schreibt man aus formellen Gr\"unden mit.
+Diese f\"allt ja bei der Ableitung heraus,
+weil sie $0$ wird.
+Desweiteren gilt:
 \[
 	\int -f(x) dx = -\int f(x) dx ;
 \]
@@ -196,7 +324,7 @@ Die Konstante $c$ (manchmal auch $C$) schreibt man aus formellen Gründen mit. D
 \]
 
 \subsubsection{Das Integral von Sinus und Kosinus}
-Ähnlich wie bei der Ableitung können Sinus und Kosinus auch ineinander integriert werden:
+\"Ahnlich wie bei der Ableitung k\"onnen Sinus und Kosinus auch ineinander integriert werden:
 
 Der Sinus und der Kosinus leiten im Prinzip immer wieder aufeinander ab:
 \begin{align*}
@@ -218,11 +346,11 @@ Da die Reinform der Exponentialfunktion auf sich selbst ableitet, kann sie auch 
 \subsection{Integrationsregeln}
 
 \subsubsection{Partielle Integration (allgemein)}
-Beim Integrieren gibt es keine allgemeingültige Formeln, um das Integral komplett
-aufzulösen. Es gibt jedoch ein paar Herangehensweisen, um die Integration zu erleichtern, und es nach und nach auszurechnen. Folgendes bietet sich an:
-\begin{itemize}
+Beim Integrieren gibt es keine allgemeing\"ultige Formeln, um das Integral komplett
+aufzul\"osen. Es gibt jedoch ein paar Herangehensweisen, um die Integration zu erleichtern, und es nach und nach auszurechnen. Folgendes bietet sich an:
+\begin{itemize}[nosep]
 	\item Polynome werden differenziert \textit{(abgeleitet)}.
-	\item Die Sinus- und Kosinusfunktionen können in sich selbst integriert werden.
+	\item Die Sinus- und Kosinusfunktionen k\"onnen in sich selbst integriert werden.
 	\item Die Exponentialfunktion $ e^x $ kann auch in sich selbst integriert werden.
 \end{itemize}
 
@@ -239,16 +367,18 @@ Da die Multiplikation kommutativ ist, gilt ebenso:
 \[
 	\int \left( f(x) \cdot g(x) \right) dx = f(x) \cdot G(x) - \int \left( f^\prime(x) \cdot G(x) \right) dx ;
 \]
+\textbf{Merkhilfe:} \textit{,,Man nimmt f\"ur eine der Funktionen eine Stammfunktion, und bildet das Produkt mit der anderen Funktion, minus das Integral von der Stammfunktion mal die Ableitung der anderen Funktion.'' (DorFuchs)}
 
-\section{Fakultät}
+\newpage
+\section{Fakult\"at}
 
 \subsection{Allgemein}
-Die Fakultät einer Zahl $n \in \mathbb{N}_0$ ist im allgemeinen wie folgt definiert:
+Die Fakult\"at einer Zahl $n \in \mathbb{N}_0$ ist im allgemeinen wie folgt definiert:
 \[
 	n! = n \cdot (n - 1) \cdot (n - 2) \cdot ... \cdot 3 \cdot 2 \cdot 1 ;
 \]
 \subsubsection{Sonderfall}
-Die Fakultät von 0 ist mit 1 definiert:
+Die Fakult\"at von 0 ist mit 1 definiert:
 \[
 	0! = 1;
 \]
@@ -271,8 +401,8 @@ Also begonnen bei $5!$:
 	& 0! = \frac{(0 + 1)!}{0 + 1} = \frac{1!}{1} = \frac{1}{1} = 1 ;
 \end{align*}
 
-\subsection{Berechnung über die Ableitung}
-Im Prinzip erhält man die Fakultät über die $n$-te Ableitung der folgenden Funktion:
+\subsection{Berechnung \"uber die Ableitung}
+Im Prinzip erh\"alt man die Fakult\"at \"uber die $n$-te Ableitung der folgenden Funktion:
 \begin{align*}
 	& f(x) = x^n ;
 	\\
@@ -286,7 +416,7 @@ Im Prinzip erhält man die Fakultät über die $n$-te Ableitung der folgenden Fu
 	\\
 	& f^{(n)}(x) = n! ;
 \end{align*}
-Beispiel zum Berechnen der Fakultät von 5:
+Beispiel zum Berechnen der Fakult\"at von 5:
 \begin{align*}
 	& f(x) = x^5 ;
 	\\
@@ -302,13 +432,19 @@ Beispiel zum Berechnen der Fakultät von 5:
 \end{align*}
 
 \subsection{Stirling-Formel}
-Als Approximation \textit{(Annäherung)} der Fakultät gibt es die sogenannte Stirling-Formel. Je höher hierbei $n$ ist, desto geringer ist dabei der relative Fehler.
+Als Approximation \textit{(Ann\"aherung)} der Fakult\"at gibt es die sogenannte Stirling-Formel.
+Je h\"oher hierbei $n$ ist,
+desto geringer ist dabei der relative Fehler.
 \[
 	n! \approx \sqrt{2 \cdot \pi \cdot n} \cdot \left( \frac{n}{e} \right) ^n ;
 \]
 
 \subsubsection{Ableitung}
-Theoretisch könnte man die Stirling-Formel auch als eine beliebige, reelle Funktion betrachten, um auch z.b. die Gamma-Funktion, die die Fakultät auf die reellen Zahlen erweitert, zu approximieren:
+Theoretisch k\"onnte man die Stirling-Formel auch als eine beliebige,
+reelle Funktion betrachten,
+um auch z.b. die Gamma-Funktion,
+die die Fakult\"at auf die reellen Zahlen erweitert,
+zu approximieren:
 \[
 	x! \approx \Gamma(x + 1) \approx \sqrt{2 \cdot \pi \cdot x} \cdot \left( \frac{x}{e} \right) ^x ;
 \]
@@ -327,18 +463,19 @@ Die Ableitung dieser Funktion ist sehr aufwendig, deswegen hier die Kurzfassung:
 	\\
 	&\cos{\alpha} = \frac{Ankathete}{Hypotenuse} ;
 \end{align*}
-Weiterhin gilt dass $ \sin^2{x} + \cos^2{x} = 1 $ ist, weil:
+Weiterhin gilt dass $ \sin^2{x} + \cos^2{x} = 1 $ ist,
+weil:
 \begin{align*}
 	& \sin^2{x} + \cos^2{x} = \\
 	& = \left( \frac{Gegenkathete}{Hypotenuse} \right) ^2 + \left( \frac{Ankathete}{Hypotenuse} \right) ^ 2 = \\
 	& = \frac{Gegenkathete^2}{Hypotenuse^2} + \frac{Ankathete^2}{Hypotenuse^2} = \\
 	& = \frac{Gegenkathete^2 + Ankathete^2}{Hypotenuse^2} ;
 \end{align*}
-Und, weil im rechtwinkeligen Dreieck der \textbf{Satz des Pythagoras} gilt:
+Und weil im rechtwinkeligen Dreieck der \textbf{Satz des Pythagoras} gilt:
 \[
 Ankathete^2 + Gegenkathete^2 = Hypotenuse^2 ;
 \]
-kommt für $ \sin^2{x} + \cos^2{x} = 1 $ heraus.
+kommt f\"ur $ \sin^2{x} + \cos^2{x} = 1 $ heraus.
 
 \subsubsection{Tangens und Kotangens}
 \begin{align*}
@@ -355,10 +492,35 @@ kommt für $ \sin^2{x} + \cos^2{x} = 1 $ heraus.
 \end{align*}
 
 \subsection{Arkusfunktionen}
-Die Arkusfunktionen sind die Umkehrfunktionen der trigonometrischen Funktionen. Für diese gibt es drei Schreibweisen. Zum Beispiel kann der Arkussinus mit $ \arcsin $, \textit{asin} oder $ sin^{-1} $ geschrieben werden. Um Verwechlungen mit dem Kehrwert zu vermeiden, verwende ich die Schreibweise mit \textit{arc} davor.
+Die Arkusfunktionen sind die Umkehrfunktionen der trigonometrischen Funktionen.
+F\"ur diese gibt es drei Schreibweisen.
+Zum Beispiel kann der Arkussinus mit $ \arcsin $,
+\textit{asin} oder $ sin^{-1} $ geschrieben werden.
+Um Verwechslungen mit dem Kehrwert zu vermeiden,
+verwende ich die Schreibweise mit \textit{arc} davor.
 
 \subsubsection{Arkussinus und Arkuskosinus}
 
+\newpage
+\section{Zahlennamen}
+Die Zahlen beziehen sich alle auf das Dezimalsystem.
+Bei gro{\ss}en Zahlen gilt \"ubrigens,
+wie im Deutschen \"ublich,
+die gro{\ss}e Leiter,
+d.h. tausend Millionen sind also eine Milliarde.
 
+\subsection{Ziffern}
+\begin{itemize}[nosep]
+	\item 0: Null
+	\item 1: Eins
+	\item 2: Zwei
+	\item 3: Drei
+	\item 4: Vier
+	\item 5: F\"unf
+	\item 6: Sechs
+	\item 7: Sieben
+	\item 8: Acht
+	\item 9: Neun
+\end{itemize}
 
 \end{document}
